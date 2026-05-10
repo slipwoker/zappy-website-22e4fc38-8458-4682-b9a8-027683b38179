@@ -1,0 +1,79 @@
+# שורשים דיגיטליים — Generative Engine Optimization Map
+
+> Shorshaim Digitaliim (Digital Roots) is a heartfelt digital platform dedicated to preserving and presenting life stories, memories, and family history for future generations. The brand evokes themes of roots, legacy, and intergenerational connection — bridging the past and the future through storytelling. It carries a warm, nostalgic, and deeply personal atmosphere, designed to help families capture and immortalize their unique heritage in a meaningful and accessible way.
+
+---
+
+## Pages
+
+### בית
+https://-22e4fc38.zappy5.app
+שורשים דיגיטליים הופכת זיכרונות משפחתיים לאוצר דיגיטלי נצחי. גלו כיצד אנו שומרים על מורשת המשפחה שלכם לדורות הבאים בצורה חמה, אישית ונגישה.
+
+### שירותים
+https://-22e4fc38.zappy5.app/services
+מאלבומים דיגיטליים ועד ספרי חיים מרגשים — שירותי תיעוד הזיכרונות שלנו מותאמים אישית לכל משפחה. גלו את הדרך הנכונה לשמר את המורשת שלכם עוד היום.
+
+### סיפורים
+https://-22e4fc38.zappy5.app/stories
+היכנסו לעולם של סיפורי חיים אמיתיים ומרגשים ששמרנו עבור משפחות מכל הארץ. כל סיפור הוא עדות חיה למורשת, לאהבה ולשורשים — התרגשו וצאו מעורר השראה.
+
+### צור קשר
+https://-22e4fc38.zappy5.app/contact
+רוצים לתעד את זיכרונות המשפחה שלכם לפני שיאבדו? צרו איתנו קשר עכשיו ונבנה יחד מורשת דיגיטלית שתלווה את משפחתכם לדורות. אנחנו כאן בשבילכם.
+
+## Legal & Policy
+
+### Privacy Policy
+https://-22e4fc38.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-22e4fc38.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-22e4fc38.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-22e4fc38.zappy5.app/contact
+- Endpoint: https://-22e4fc38.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About שורשים דיגיטליים
+Shorshaim Digitaliim (Digital Roots) is a heartfelt digital platform dedicated to preserving and presenting life stories, memories, and family history for future generations. The brand evokes themes of roots, legacy, and intergenerational connection — bridging the past and the future through storytelling. It carries a warm, nostalgic, and deeply personal atmosphere, designed to help families capture and immortalize their unique heritage in a meaningful and accessible way.
+
+## Target Audience
+- משפחות המעוניינות לשמר ולהעביר היסטוריה ומורשת לדורות הבאים
+- משפחות ממוקדות מורשת
+- חובבי גנאלוגיה
+- משפחות דיגיטליות
+
+## Industry
+שימור זיכרונות ומורשת משפחתית
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-22e4fc38.zappy5.app/sitemap.xml
+- Robots: https://-22e4fc38.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-22e4fc38.zappy5.app/llms-full.txt
