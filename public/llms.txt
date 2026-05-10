@@ -7,33 +7,33 @@
 ## Pages
 
 ### בית
-https://-22e4fc38.zappy5.app
+https://example.com
 שורשים דיגיטליים הופכת זיכרונות משפחתיים לאוצר דיגיטלי נצחי. גלו כיצד אנו שומרים על מורשת המשפחה שלכם לדורות הבאים בצורה חמה, אישית ונגישה.
 
 ### שירותים
-https://-22e4fc38.zappy5.app/services
+https://example.com/services
 מאלבומים דיגיטליים ועד ספרי חיים מרגשים — שירותי תיעוד הזיכרונות שלנו מותאמים אישית לכל משפחה. גלו את הדרך הנכונה לשמר את המורשת שלכם עוד היום.
 
 ### סיפורים
-https://-22e4fc38.zappy5.app/stories
+https://example.com/stories
 היכנסו לעולם של סיפורי חיים אמיתיים ומרגשים ששמרנו עבור משפחות מכל הארץ. כל סיפור הוא עדות חיה למורשת, לאהבה ולשורשים — התרגשו וצאו מעורר השראה.
 
 ### צור קשר
-https://-22e4fc38.zappy5.app/contact
+https://example.com/contact
 רוצים לתעד את זיכרונות המשפחה שלכם לפני שיאבדו? צרו איתנו קשר עכשיו ונבנה יחד מורשת דיגיטלית שתלווה את משפחתכם לדורות. אנחנו כאן בשבילכם.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-22e4fc38.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-22e4fc38.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-22e4fc38.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -43,8 +43,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://-22e4fc38.zappy5.app/contact
-- Endpoint: https://-22e4fc38.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -74,6 +74,6 @@ Shorshaim Digitaliim (Digital Roots) is a heartfelt digital platform dedicated t
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-22e4fc38.zappy5.app/sitemap.xml
-- Robots: https://-22e4fc38.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-22e4fc38.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
