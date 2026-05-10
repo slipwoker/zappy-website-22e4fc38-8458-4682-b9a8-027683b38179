@@ -864,7 +864,7 @@
   </div>
 </section>
 
-<section class="contact-contact-form-section" data-layout-spec="צור קשר-contact-form" dir="rtl">
+<section class="contact-contact-form-section" data-layout-spec="צור קשר-contact-form" dir="rtl" id="contact-contact-form-section">
   <div class="contact-cform-container">
 
     <!-- Form Column (START = RIGHT in RTL) -->
@@ -874,10 +874,10 @@
         <p class="contact-cform-form-subtitle">נשמח לשמוע על הסיפור המשפחתי שלכם ולעזור לכם להתחיל</p>
 
         <form class="contact-form" novalidate="">
-          <div class="contact-cform-field">
+          <div class="contact-cform-field field--error">
             <label class="contact-cform-label" for="cf-name">שם מלא</label>
-            <input class="contact-cform-input" type="text" id="cf-name" name="name" placeholder="הכניסו את שמכם המלא" required="">
-          </div>
+            <input class="contact-cform-input" type="text" id="cf-name" name="name" placeholder="הכניסו את שמכם המלא" required="" aria-invalid="true">
+          <span class="field-error-message" role="alert" aria-live="polite">שם מלא is required.</span></div>
 
           <div class="contact-cform-field">
             <label class="contact-cform-label" for="cf-email">כתובת אימייל</label>
@@ -897,11 +897,11 @@
           <div class="privacy-consent">
             <label class="privacy-consent-label">
               <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required="">
-              <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
+              <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank" style="color: rgb(21, 23, 27) !important;">תנאי השימוש</a> ול<a href="/privacy" target="_blank" style="color: rgb(21, 23, 27) !important;">מדיניות הפרטיות</a></span>
             </label>
           </div>
 
-          <button type="submit" class="contact-cform-submit">שלחו את הסיפור שלכם</button>
+          <button type="submit" class="contact-cform-submit" data-element-type="button" data-element-id="btn-1778438552992-i34t7f29b" data-native-element="true">שלחו את הסיפור שלכם</button>
         </form>
       </div>
     </div>
@@ -909,8 +909,8 @@
     <!-- Text Column (END = LEFT in RTL) -->
     <div class="contact-cform-text-col">
       <div class="contact-cform-text-inner">
-        <span class="contact-cform-eyebrow">צרו קשר</span>
-        <h2 class="contact-cform-heading">מוכנים לשמר את המורשת המשפחתית שלכם?</h2>
+        <p class="zappy-editable"><span class="contact-cform-eyebrow" style="color: rgb(21, 23, 27) !important;">צרו קשר</span>
+        </p><h2 class="contact-cform-heading">מוכנים לשמר את המורשת המשפחתית שלכם?</h2>
         <div class="contact-cform-gold-divider" aria-hidden="true">
           <svg data-no-icon-edit="true" aria-hidden="true" width="48" height="12" viewBox="0 0 48 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M24 2 L28 6 L24 10 L20 6 Z" fill="#C9A84C" opacity="0.9"></path>
@@ -921,7 +921,7 @@
         <p class="contact-cform-desc">כל משפחה נושאת בתוכה עולם שלם של סיפורים, זיכרונות ורגעים שראויים להישמר לנצח. בשורשים דיגיטליים, אנחנו כאן כדי ללוות אתכם בכל צעד בדרך לשימור זיכרונות משפחתיים דיגיטלי — מהרגע הראשון ועד לתוצר המוגמר.</p>
 
         <ul class="contact-cform-reassurances">
-          <li class="contact-cform-reassurance-item">
+          <li class="contact-cform-reassurance-item" data-grid-item-index="0">
             <div class="contact-cform-reassurance-icon" aria-hidden="true">
               <svg data-element-type="icon" data-icon-type="svg" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14l-4-4 1.41-1.41L11 13.17l6.59-6.59L19 8l-8 8z" fill="#C9A84C"></path>
@@ -933,7 +933,7 @@
             </div>
           </li>
 
-          <li class="contact-cform-reassurance-item">
+          <li class="contact-cform-reassurance-item" data-grid-item-index="1">
             <div class="contact-cform-reassurance-icon" aria-hidden="true">
               <svg data-element-type="icon" data-icon-type="svg" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -941,11 +941,11 @@
             </div>
             <div class="contact-cform-reassurance-content">
               <h3 class="contact-cform-reassurance-title">תהליך ברור ופשוט</h3>
-              <p class="contact-cform-reassurance-text">לאחר פנייתכם, נסביר לכם בדיוק כיצד התהליך עובד — כולל תשלום חד פעמי של 100 ₪ ליצירת הארכיון המשפחתי.</p>
+              <p class="contact-cform-reassurance-text" style="">לאחר פנייתכם, נסביר לכם בדיוק כיצד התהליך עובד — כולל תשלום חד פעמי של 200 ₪ ליצירת הארכיון המשפחתי.</p>
             </div>
           </li>
 
-          <li class="contact-cform-reassurance-item">
+          <li class="contact-cform-reassurance-item" data-grid-item-index="2">
             <div class="contact-cform-reassurance-icon" aria-hidden="true">
               <svg data-element-type="icon" data-icon-type="svg" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -975,7 +975,7 @@
   </div>
 </section>
 
-<section class="contact-contact-details-section" data-layout-spec="צור קשר-contact-details" dir="rtl">
+<section class="contact-contact-details-section" data-layout-spec="צור קשר-contact-details" dir="rtl" id="contact-contact-details-section">
   <!-- Noise texture overlay -->
   <div class="ccd-noise" aria-hidden="true"></div>
 
@@ -990,14 +990,14 @@
           <line x1="22" y1="10" x2="32" y2="10" stroke="#C9A84C" stroke-width="1" opacity="0.5"></line>
         </svg>
       </div>
-      <p class="ccd-subtitle">אנחנו כאן כדי לעזור לכם לשמר את הסיפורים החשובים ביותר. צרו איתנו קשר ונחזור אליכם בהקדם.</p>
+      <p class="ccd-subtitle" style="color: rgb(245, 241, 232) !important;">אנחנו כאן כדי לעזור לכם לשמר את הסיפורים החשובים ביותר. צרו איתנו קשר ונחזור אליכם בהקדם.</p>
     </div>
 
     <!-- Cards row -->
     <div class="ccd-cards-grid">
 
       <!-- Email card -->
-      <article class="ccd-card">
+      <article class="ccd-card" data-grid-item-index="0">
         <div class="ccd-card-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <rect x="2" y="6" width="24" height="16" rx="2" stroke="#00D4FF" stroke-width="1.5" fill="none"></rect>
@@ -1006,14 +1006,14 @@
         </div>
         <div class="ccd-card-body">
           <h3 class="ccd-card-title">דואר אלקטרוני</h3>
-          <p class="ccd-card-text">שלחו לנו הודעה בכל עת — נשמח לשמוע את סיפורכם ולהתחיל יחד את המסע לשימור המורשת המשפחתית שלכם.</p>
+          <p class="ccd-card-text" style="color: rgb(245, 241, 232) !important;">שלחו לנו הודעה בכל עת — נשמח לשמוע את סיפורכם ולהתחיל יחד את המסע לשימור המורשת המשפחתית שלכם.</p>
           
         </div>
         <div class="ccd-card-glow" aria-hidden="true"></div>
       </article>
 
       <!-- Phone card -->
-      <article class="ccd-card">
+      <article class="ccd-card" data-grid-item-index="1">
         <div class="ccd-card-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M6 4h6l2 5-3 2a14 14 0 006 6l2-3 5 2v6a2 2 0 01-2 2C10 24 4 18 4 6a2 2 0 012-2z" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
@@ -1021,14 +1021,14 @@
         </div>
         <div class="ccd-card-body">
           <h3 class="ccd-card-title">טלפון</h3>
-          <p class="ccd-card-text">מעדיפים לדבר? נשמח לשוחח איתכם ישירות, להקשיב לסיפורים ולהסביר כיצד פועל תהליך שימור הזיכרונות.</p>
+          <p class="ccd-card-text" style="color: rgb(245, 241, 232) !important;">מעדיפים לדבר? נשמח לשוחח איתכם ישירות, להקשיב לסיפורים ולהסביר כיצד פועל תהליך שימור הזיכרונות.</p>
           
         </div>
         <div class="ccd-card-glow" aria-hidden="true"></div>
       </article>
 
       <!-- Response time card -->
-      <article class="ccd-card">
+      <article class="ccd-card" data-grid-item-index="2">
         <div class="ccd-card-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <circle cx="14" cy="14" r="10" stroke="#00D4FF" stroke-width="1.5" fill="none"></circle>
@@ -1037,9 +1037,9 @@
         </div>
         <div class="ccd-card-body">
           <h3 class="ccd-card-title">זמן מענה</h3>
-          <p class="ccd-card-text">אנו מתחייבים לחזור אל כל פנייה תוך יום עסקים אחד. כל סיפור משפחתי מקבל אצלנו את הזמן והתשומת לב שהוא ראוי לה.</p>
-          <span class="ccd-response-badge">עד 24 שעות</span>
-        </div>
+          <p class="ccd-card-text" style="color: rgb(245, 241, 232) !important;">אנו מתחייבים לחזור אל כל פנייה תוך יום עסקים אחד. כל סיפור משפחתי מקבל אצלנו את הזמן והתשומת לב שהוא ראוי לה.</p>
+          <p class="zappy-editable"><span class="ccd-response-badge">עד 24 שעות</span>
+        </p></div>
         <div class="ccd-card-glow" aria-hidden="true"></div>
       </article>
 
@@ -1049,7 +1049,7 @@
     <div class="ccd-hairline" aria-hidden="true"></div>
 
     <!-- Bottom note -->
-    <p class="ccd-bottom-note">שורשים דיגיטליים — שימור זיכרונות משפחתיים דיגיטלי לדורות הבאים &nbsp;·&nbsp; עלות יצירה: 100 ₪</p>
+    <p class="ccd-bottom-note" style="color: rgb(245, 241, 232) !important;">שורשים דיגיטליים — שימור זיכרונות משפחתיים דיגיטלי לדורות הבאים &nbsp;·&nbsp; עלות יצירה: 200 ₪</p>
   </div>
 
   <!-- Bottom gradient fade to light section -->
